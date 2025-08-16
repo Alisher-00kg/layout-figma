@@ -83,7 +83,14 @@ a {
   cursor: pointer;
   justify-content: center;
   border: none;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
 }
+
+.main-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 .swipe_btn {
   width: 40px;
   height: 40px;
@@ -231,10 +238,10 @@ main {
   z-index: 15;
   padding: 0px 10px;
 }
-.main__section--cards--swipeBtn{
+.main__section--cards--swipeBtn {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 /* footer */
