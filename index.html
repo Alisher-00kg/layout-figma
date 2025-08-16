@@ -10,38 +10,238 @@
     <title>ANICLOT</title>
   </head>
   <body>
-    <header>
-      <img
-        src="./assets/icons/header-logo.svg"
-        alt="header-logo"
-        class="header-logo"
-      />
-      <nav>
-        <a href="#">АНИМЕ</a>
-        <a href="#">ФУТБОЛКИ</a>
-        <a href="#">ЛОНГСЛИВЫ</a>
-        <a href="#">ХУДИ</a>
-        <a href="#">ИНФО</a>
-        <a href="#">НОВОСТИ</a>
-        <a href="#">КОНТАКТЫ</a>
-      </nav>
-      <nav>
-        <img src="./assets/icons/phone.svg" alt="phone" class="phone" />
-        <a href="#">+7 900 000-00-00</a>
-      </nav>
-      <nav>
-        <img src="./assets/icons/avatar.svg" alt="avatar" class="avatar" />
-        <a href="#">Alexsandеr@gmail.com</a>
-        <span>10 000 бал.</span>
-      </nav>
-      <nav>
-        <img src="./assets/icons/search.svg" alt="search" />
-        <img src="./assets/icons/white-heart.svg" alt="favorites" />
-        <img src="./assets/icons/store.svg" alt="store" />
-      </nav>
-    </header>
-    <main></main>
-    <footer></footer>
+    <div class="header-container">
+      <header>
+        <img
+          src="./assets/icons/header-logo.svg"
+          alt="header-logo"
+          class="header-logo icon"
+        />
+        <nav class="first_navigation">
+          <a href="#">АНИМЕ</a>
+          <a href="#">ФУТБОЛКИ</a>
+          <a href="#">ЛОНГСЛИВЫ</a>
+          <a href="#">ХУДИ</a>
+          <a href="#">ИНФО</a>
+          <a href="#">НОВОСТИ</a>
+          <a href="#">КОНТАКТЫ</a>
+        </nav>
+        <nav class="second_navigation">
+          <img src="./assets/icons/phone.svg" alt="phone" class="phone icon" />
+          <a href="#">+7 900 000-00-00</a>
+        </nav>
+        <nav class="third-navigation">
+          <img
+            src="./assets/icons/avatar.svg"
+            alt="avatar"
+            class="avatar icon"
+          />
+          <a href="#">Alexsandеr@gmail.com</a>
+          <span class="third-navigation--scores">10 000 бал.</span>
+        </nav>
+        <nav class="fourth-navigation">
+          <img
+            src="./assets/icons/search.svg"
+            alt="search"
+            class="search icon twenty-size"
+          />
+          <img
+            src="./assets/icons/white-heart.svg"
+            alt="favorites"
+            class="favorites icon twenty-size"
+          />
+          <img
+            src="./assets/icons/store.svg"
+            alt="store"
+            class="store icon twenty-size"
+          />
+        </nav>
+      </header>
+      <div class="header_wrapper--arrows">
+        <button class="main-btn swipe_btn">
+          <img
+            src="./assets/icons/arrow-toleft.svg"
+            alt="arrow-toleft"
+            class="twenty-size"
+          />
+        </button>
+        <button class="main-btn swipe_btn">
+          <img
+            src="./assets/icons/arrow-toright.svg"
+            alt="arrow-toright"
+            class="twenty-size"
+          />
+        </button>
+      </div>
+    </div>
+    <main>
+      <section class="main__section">
+        <article class="main__article">
+          <p class="main__section--title">Новинки</p>
+          <button class="main__section--button main-btn">
+            Все новинки
+            <img
+              src="./assets/icons/arrow-toright.svg"
+              alt="arrow-toleft"
+              class="main__section--button_svg"
+            />
+          </button>
+        </article>
+
+        <section class="main__section--cards">
+          <div class="main__card icon">
+            <span class="main__card--status">NEW!</span>
+            <img
+              src="./assets/icons/favorite.svg"
+              alt="favorite"
+              class="icon twenty-size main__card--favorite"
+            />
+            <img
+              src="./assets/images/tshirt1.png"
+              alt="tshirt1"
+              class="main__card--image"
+            />
+            <div class="main__card--lowBlock">
+              <div class="main__card--descriptions">
+                <span class="main__card--descriptions_title"
+                  >клинок рассекающий демонов</span
+                >
+                <p class="main__card--descriptions_more">
+                  Футболка аниме клинок рассекающий демонов, чёрный цвет,
+                  46 размер, 100% хлопок
+                </p>
+              </div>
+              <div class="main__card--prices">
+                <p class="main__card--prices-current">10 000 ₽</p>
+                <span class="main__card--prices-sale">20 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          <div class="main__card icon">
+            <span class="main__card--status">NEW!</span>
+            <img
+              src="./assets/icons/favorite.svg"
+              alt="favorite"
+              class="icon twenty-size main__card--favorite"
+            />
+            <img
+              src="./assets/images/tshirt1.png"
+              alt="tshirt1"
+              class="main__card--image"
+            />
+            <div class="main__card--lowBlock">
+              <div class="main__card--descriptions">
+                <span class="main__card--descriptions_title"
+                  >клинок рассекающий демонов</span
+                >
+                <p class="main__card--descriptions_more">
+                  Футболка аниме клинок рассекающий демонов, чёрный цвет,
+                  46 размер, 100% хлопок
+                </p>
+              </div>
+              <div class="main__card--prices">
+                <p class="main__card--prices-current">10 000 ₽</p>
+                <span class="main__card--prices-sale">20 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          <div class="main__card icon">
+            <span class="main__card--status">NEW!</span>
+            <img
+              src="./assets/icons/favorite.svg"
+              alt="favorite"
+              class="icon twenty-size main__card--favorite"
+            />
+            <img
+              src="./assets/images/tshirt1.png"
+              alt="tshirt1"
+              class="main__card--image"
+            />
+            <div class="main__card--lowBlock">
+              <div class="main__card--descriptions">
+                <span class="main__card--descriptions_title"
+                  >клинок рассекающий демонов</span
+                >
+                <p class="main__card--descriptions_more">
+                  Футболка аниме клинок рассекающий демонов, чёрный цвет,
+                  46 размер, 100% хлопок
+                </p>
+              </div>
+              <div class="main__card--prices">
+                <p class="main__card--prices-current">10 000 ₽</p>
+                <span class="main__card--prices-sale">20 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          <div class="main__card icon">
+            <span class="main__card--status">NEW!</span>
+            <img
+              src="./assets/icons/favorite.svg"
+              alt="favorite"
+              class="icon twenty-size main__card--favorite"
+            />
+            <img
+              src="./assets/images/tshirt1.png"
+              alt="tshirt1"
+              class="main__card--image"
+            />
+            <div class="main__card--lowBlock">
+              <div class="main__card--descriptions">
+                <span class="main__card--descriptions_title"
+                  >клинок рассекающий демонов</span
+                >
+                <p class="main__card--descriptions_more">
+                  Футболка аниме клинок рассекающий демонов, чёрный цвет,
+                  46 размер, 100% хлопок
+                </p>
+              </div>
+              <div class="main__card--prices">
+                <p class="main__card--prices-current">10 000 ₽</p>
+                <span class="main__card--prices-sale">20 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          <div class="main__section--cards--swipeArrows">
+            <button class="main__section--cards--swipeBtn main-btn">
+              <img
+                src="./assets/icons/arrow-narrow-left.svg"
+                alt="arrow-toleft"
+                class="icon twenty-size"
+              />
+            </button>
+            <button class="main__section--cards--swipeBtn main-btn">
+              <img
+                src="./assets/icons/arrow-narrow-right.svg"
+                alt="arrow-narrow-right"
+                class="icon twenty-size"
+              />
+            </button>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <article>
+        <div></div>
+        <div></div>
+      </article>
+      <article>
+        <section>
+          <div></div>
+          <div></div>
+        </section>
+        <section></section>
+        <section>
+          <div></div>
+          <div></div>
+        </section>
+      </article>
+      <article>
+        <div></div>
+        <div></div>
+      </article>
+    </footer>
+
     <script src="./main.js"></script>
   </body>
 </html>
