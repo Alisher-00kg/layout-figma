@@ -1,0 +1,28 @@
+@media (max-width: 1131px) and (min-width: 992px) {
+  footer,
+  footer > article {
+    display: flex;
+    gap: 10px;
+  }
+
+  .first_navigation {
+    display: none;
+  }
+  .main__card {
+    width: 347px;
+  }
+  .footer__little-card,
+  .footer__big-card {
+    width: 240px;
+    height: 228px;
+  }
+  .footer__second-block--centerBox {
+    font-size: 30px;
+  }
+  .burger-menu {
+    display: block;
+  }
+  footer > .title {
+    font-size: 14px;
+  }
+}

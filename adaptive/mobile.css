@@ -1,0 +1,53 @@
+@media (max-width: 991px) and (min-width: 745px) {
+  .first_navigation {
+    display: none;
+  }
+  footer,
+  footer > article,
+  footer > section,
+  .footer__second-block--topBox,
+  .footer__second-block--endBox {
+    display: flex;
+    gap: 10px;
+  }
+  .main__card {
+    width: 347px;
+  }
+  .footer__little-card,
+  .footer__big-card {
+    width: 228px;
+    height: 257px;
+  }
+  .footer__second-block--centerBox {
+    width: 228px;
+    height: 176px;
+    p {
+      font-size: 30px;
+    }
+  }
+  .burger-menu {
+    display: block;
+  }
+  footer {
+    .title {
+      font-size: 14px;
+    }
+  }
+  .footer__little-card--animeImage {
+    height: 179px;
+  }
+  .footer__little-card {
+    flex-direction: column;
+    align-items: end;
+  }
+}
+@media (max-width: 700px) and (min-width: 360px) {
+  .modal {
+    width: 80%;
+    height: fit-content;
+  }
+  .modal__submit {
+    flex-direction: column;
+    align-items: center;
+  }
+}

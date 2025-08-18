@@ -1,0 +1,80 @@
+@media (max-width: 744px) and (min-width: 320px) {
+  .first_navigation {
+    display: none;
+  }
+  footer,
+  footer > article,
+  footer > section,
+  .footer__second-block--topBox,
+  .footer__second-block--endBox {
+    display: flex;
+    gap: 10px;
+  }
+  .main__card {
+    width: 347px;
+  }
+
+  .footer__little-card,
+  .footer__big-card {
+    width: 100%;
+    height: 180px;
+  }
+  .footer__second-block--centerBox {
+    width: 228px;
+    height: 176px;
+    p {
+      font-size: 30px;
+    }
+  }
+  .burger-menu {
+    display: block;
+  }
+  footer {
+    .title {
+      font-size: 14px;
+    }
+  }
+  .footer__little-card--animeImage {
+    height: 179px;
+  }
+  .smart,
+  .third-navigation {
+    display: none;
+  }
+  .main__card {
+    width: 340px;
+  }
+  footer,
+  footer > article,
+  footer > section {
+    flex-direction: column;
+  }
+  .footer__second-block--topBox {
+    flex-direction: column;
+  }
+  .footer__second-block--endBox {
+    flex-direction: column;
+  }
+  .footer__second-block--centerBox {
+    display: none;
+  }
+  .footer__smartCollection {
+    display: block;
+    font-size: 30px;
+  }
+  .footer__last--btn {
+    width: 179px;
+    height: 44px;
+    gap: 10px;
+    background-color: var(--dark-black-color);
+    color: #fff;
+  }
+  .main__section {
+    height: 619px;
+  }
+  .main__section--button {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+  }
+}

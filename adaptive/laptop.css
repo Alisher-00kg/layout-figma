@@ -1,0 +1,15 @@
+@media (max-width: 1200px) and (min-width: 1132px) {
+  .main__card {
+    width: 373px;
+  }
+  .footer__little-card,
+  .footer__big-card {
+    width: 275px;
+  }
+  .footer__big-card {
+    height: 329px;
+  }
+  footer .title {
+    font-size: 14px;
+  }
+}
