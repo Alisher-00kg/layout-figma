@@ -41,6 +41,7 @@ header > nav,
 .main-btn {
   display: flex;
   align-items: center;
+  text-transform: uppercase;
 }
 header {
   width: 100%;
@@ -50,6 +51,7 @@ header {
 .header-logo {
   width: 80px;
   height: 57px;
+  cursor: pointer;
 }
 header > nav a {
   font-size: 13px;
@@ -84,6 +86,7 @@ a {
   justify-content: center;
   border: none;
   transition: transform 0.1s ease, box-shadow 0.1s ease;
+  border-radius: 10px;
 }
 
 .main-btn:active {
@@ -95,7 +98,6 @@ a {
   width: 40px;
   height: 40px;
   background-color: var(--dark-black-color);
-  border-radius: 10px;
 }
 .header_wrapper--arrows {
   width: 100%;
@@ -133,7 +135,6 @@ main {
 .main__section--button {
   width: 180px;
   height: 52px;
-  border-radius: 10px;
   text-transform: uppercase;
   gap: 10px;
   background-color: var(--dark-black-color);
@@ -245,3 +246,129 @@ main {
   background-color: #f4f4f4;
 }
 /* footer */
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  text-transform: uppercase;
+  .collection {
+    font-size: 10px;
+    color: var(--dark-gray-color);
+  }
+  .title {
+    color: #fff;
+  }
+}
+.footer__first-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer__little-card {
+  width: 335px;
+  height: 178px;
+  border-radius: 20px;
+  background-color: var(--dark-black-color);
+  display: flex;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+}
+.footer__little-card--animeImage {
+  width: 135px;
+  height: 100%;
+  object-fit: cover;
+}
+.footer__little-card:hover {
+  transform: scale(1.05);
+}
+.footer__big-card {
+  width: 335px;
+  height: 333px;
+  border-radius: 20px;
+  background-color: var(--dark-black-color);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  .anime_image {
+    width: 181px;
+    height: 239px;
+    object-fit: cover;
+    padding-bottom: 20px;
+  }
+}
+.footer__big-card:hover {
+  transform: scale(1.05);
+}
+.footer__second-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__second-block--topBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer__second-block--centerBox {
+  width: 100%;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  p {
+    font-size: 35px;
+  }
+  button {
+    width: 179px;
+    height: 44px;
+    gap: 10px;
+    background-color: var(--dark-black-color);
+    color: #fff;
+  }
+}
+.footer__second-block--endBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer__third-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer__little-card--description,
+.footer__big-card--description {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px;
+}
+.footer__little-card--navigateBtn,
+.footer__big-card--navigateBtn {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  z-index: 10;
+  width: 32px;
+  height: 32px;
+  background-color: #666666;
+}
